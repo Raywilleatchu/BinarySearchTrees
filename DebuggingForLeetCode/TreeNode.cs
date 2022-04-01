@@ -89,7 +89,7 @@ namespace DebuggingForLeetCode
 
         public void Insert(int value)
         {
-            if (value >= data) //Is Value Greater Than Or Equal To Data
+            if (value >= data)
             {
                 if (Right == null)
                 { //If Right child doesn't exist, set Right's value to the input value; 
